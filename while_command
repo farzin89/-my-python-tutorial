@@ -1,0 +1,37 @@
+while_command
+
+i = 1
+while i<6 :
+print(i)
+i+=1
+print("the program is finished")
+
+result: 
+1
+2
+3
+4
+5
+thr program is finished
+...................................................
+game(guss_what)_whit_while
+
+answer = input("player1 : please insert the number(1-100):")
+answer = int(answer)
+
+is_correct= False
+try_count = 0
+
+while try_count < 10 and is_correct ==False:
+    guess = int(input("player 2: please guess a number!"))
+    if guess == answer:
+        print("player 2: you won!")
+        is_correct= True
+    elif guess > answer:
+        print("your guess is greater than the answer.")
+        try_count+=1
+    else:
+        print("your guess is smaller than the answer.")
+        try_count +=1
+if is_correct == False:
+    print("player 2: you lost!")
