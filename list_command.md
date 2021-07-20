@@ -66,3 +66,36 @@
     colors.reverse()
     print(colors)
     answer = ['Blue', 'Red', 'White', 'Black', 'Blue', 'Green']
+    
+    .......................................................................................................
+    Two-dimensional list
+    
+    queb_list = [
+    [2,3,3],
+    [4,8,2],
+    [3,5,4]
+    ]
+    print(queb_list[1][0])
+    
+    result:
+    4
+    ...................................................................................................
+    calculate of volume of queb
+    
+    queb_list = [
+    [2,3,3],
+    [4,8,2],
+    [3,5,4]
+    ]
+
+     for queb in queb_list:
+     result= 1
+     for dimention in queb:
+        result = result * dimention
+        print(result)
+        
+     result:
+     18
+     64
+     60
+    
