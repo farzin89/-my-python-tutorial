@@ -1,0 +1,17 @@
+
+
+week_days = {
+    "sat":"saturday",
+    "sun":"sunday",
+    "mon":"monday",
+    "tue":"wednesday",
+    "wed":"thursday",
+    "thu":"thursday",
+    "fri":"friday"
+}
+
+print(week_days["fri"])
+
+result:
+friday
+.....................................................
